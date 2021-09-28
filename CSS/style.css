@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*nav bar*/
+
+
+#logo{
+    margin: 5px 33px;
+    margin-right: 5px;
+}
+#logo img{
+    margin: -11px 10px;
+    margin-right: 2px;
+    height: 100px;
+}
+#navbar ul{
+         display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+
+
+}
+#navbar ul li a{
+    color: blanchedalmond;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: burlywood;
+  
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+   
+}
+#home::before{
+    content: "";
+    background:url('../BG.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 79%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35 ;
+    top:0px;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 47px 99px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color: rgb(175, 123, 11);
+    text-align: center;
+    font-size: 4 rem;
+    font-family: 'Bree Serif', serif;
+    margin-top: 67px;
+}
+#home p{
+    color: rgb(106, 26, 138);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    margin-top: 10px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+   cursor:pointer;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: violet;
+    color: white;
+    margin: 17px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    cursor:pointer;
+     padding: 6px 20px;
+     border: 2px solid white;
+     background: rgb(65, 118, 128);
+     color: rgb(224, 211, 30);
+     margin: 17px;
+     border-radius: 20px;
+     font-size: 1.5rem;
+ }
+ /* Services Section */
+#services{
+    margin: 34px;
+    margin-top: 54px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#services .box h2{ 
+    font-family: 'Baloo 2', cursive;
+text-align: center;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+#servi h1{
+    width: 362px;
+    font-family: 'Baloo Bhai', cursive;
+    margin-top: 361px;
+    padding-top: 145px;
+    padding-bottom: 0px;
+    margin: auto;
+    display: block;
+    color: rgb(190, 122, 33);
+}
+#navbar{
+    font-family: 'Baloo Bhai', cursive; 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+     position: sticky;
+}
+
+
+
+
+
+

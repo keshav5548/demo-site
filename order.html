@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>place your order</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+    color: #fffed1;
+    margin: 0px;
+    padding: 0px;
+    background: url(halloween.jpg);
+    }
+
+    .left {
+   
+        left: 60px;
+        top: -12px;
+        font-size: 1.5rem;
+    }
+
+ 
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+  
+
+    .right {
+    
+     align-items: ;
+    }
+
+    .al{display: flex;
+
+    }
+   
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        position: relative;
+        border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 33%;
+    border-radius: 84px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 200pxpx;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    #gif{
+        align-items: right;
+    }
+
+    .a{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+
+    #navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar li{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar  ul  { 
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar li {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li :hover{
+    color: black;
+    background-color: white;
+}
+
+</style>
+
+<body>
+  
+
+        <div id="navbar">
+        <div >
+            <ul>
+          YOU HAVE MADE A GREAT CHOICE
+        </ul>
+        </div>
+       
+
+    
+        
+        <div >
+            
+            <li>
+            <button class="btn">Call Us Now</button>
+            <button class="btn" >Email Us</button>
+        </li>
+        </div>
+    </div>
+  
+    <div class="a">
+    <div class="container">
+        <h1>Enter the following details</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name" required pattern ="[A-z]{1,100)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age"required pattern ="[0,9]{1,100)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender" required pattern ="[A-z]{1,100)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality" required pattern ="[A-z]{1,100)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+  <div class="cart">  <img src="cartoon.png" alt="image" height="900px" width="1000px">
+  </div>
+</div>
+</body>
+
+</html>
